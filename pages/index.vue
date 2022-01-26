@@ -1,9 +1,13 @@
 <template>
-  <Tutorial />
+  <h1>{{ message }}</h1>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  data() {
+    return {
+      message: 'Welcome to Your Vue.js App'
+    }
+  }
 }
 </script>
