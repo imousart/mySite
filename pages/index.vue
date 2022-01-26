@@ -1,13 +1,13 @@
 <template>
-  <h1>{{ message }}</h1>
+  <div>
+    <h1 class="flex justify-center mt-10">
+      Just come again to see my site soon :)
+    </h1>
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      message: 'Welcome to Your Vue.js App'
-    }
-  }
+
 }
 </script>
