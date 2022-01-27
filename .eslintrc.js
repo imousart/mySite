@@ -16,6 +16,14 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    
-  }
+
+  },
+  overrides: [
+    {
+      files: ['src/views/**/*.vue'],
+      rules: {
+        'vue/multi-word-component-names': 0,
+      },
+    },
+  ],
 }

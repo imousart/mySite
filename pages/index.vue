@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="flex justify-center mt-10">
+    <h1 class="flex justify-center mt-10 font-ibm-200 text-indigo-600 ">
       {{ message }}
     </h1>
   </div>
@@ -8,11 +8,10 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-      message: 'Just come again to see my site soon :)'
+      message: ':)في المرة القادة لزيارتك سوف نقوم بإضافة بعض المزيد من المعلومات عن الموقع'
     }
   }
-
 }
 </script>

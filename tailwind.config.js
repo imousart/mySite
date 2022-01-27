@@ -1,7 +1,11 @@
 module.exports = {
     content: ["./assets/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        FontFace: {
+          'ibm': 'IBM Plex Sans Arabic'
+      },
     },
     plugins: [],
   }
+}
