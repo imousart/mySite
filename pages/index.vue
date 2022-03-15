@@ -12,6 +12,11 @@ export default {
   data () {
     return {
       message: ':)في المرة القادة لزيارتك سوف نقوم بإضافة بعض المزيد من المعلومات عن الموقع'
+    },
+    head: {
+   script: {
+     src: 'https://cdn.splitbee.io/sb.js'
+   }
     }
   }
 }
